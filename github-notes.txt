@@ -1,0 +1,62 @@
+
+-- To make sure you have git installed or not?
+
+	git 
+	git -v
+	git --version
+	
+	Version Installed: git version 2.46.1.windows.1
+	
+/* ***************************************************** */
+
+Configuration Commands:
+
+git config --global user.email "anshul.dhuryani@gmail.com"
+git config --global user.name "anshuldhuryani"
+
+/* ***************************************************** */
+
+1. Create any local folder.
+
+2. Move to the folder and add few files
+
+3. Open the folder at GitBash or Command Prompt
+
+4. Initialize the Git Repository:
+
+	git init
+	
+5. Check the status of tracked and untracked files:
+
+	git status
+	
+6. Add the tracked files to the stagging area:
+
+	git add .
+	
+7. Check the status again
+
+	git status
+	
+8. Create a commit
+
+	git commit -m "First Commit with intro.txt File"
+	
+9. Push the changes to the central repository:
+
+	git remote add origin https://github.com/anshuldhuryani/CodingBeamProject.git
+	
+	git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+	
+		
