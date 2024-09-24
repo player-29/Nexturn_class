@@ -1,0 +1,12 @@
+Cloning a repo
+
+1. go to GitHub repo and take the URL
+2. Open the cmd prompt and move to the desired location
+3. clone the repo using the command git clone (URL). This will download all the files into the local machine with the same repository name
+4. to verify, go to the repository and check status git status to check
+
+Pull the changes to the clone repository
+1. Make sure the changes are done to the original repository
+2. Once the changes are done push the changes to the GitHub central repo
+3. Go to the cloned repo inside the project folder.
+4. pull the changes ----git pull.
